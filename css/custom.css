@@ -87,9 +87,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #506784;
 }
 
-p ul li {
-  color: rgb(239, 239, 239);
-}
+
 
 .example-container h1,
 .example-container h2,
@@ -158,10 +156,13 @@ p ul li {
   cursor: pointer;
 }
 
+.content p ul li {
+  color: rgb(239, 239, 239);
+}
 
 .content p > code,
 .content li > code{
-    background-color: gray();
+    background-color: rgb(243, 246, 251);
     border: 0.5px rgb(224, 232, 242) solid;
     border-radius: 4px;
     font-size: 1.8rem;
