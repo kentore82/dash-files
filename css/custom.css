@@ -84,7 +84,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: Dosis, 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 400;
-  color: #2A3F5F;
+  color: #506784;
 }
 
 p {
@@ -161,7 +161,7 @@ p {
 
 .content p > code,
 .content li > code{
-    background-color: rgb(243, 246, 251);
+    background-color: gray();
     border: 0.5px rgb(224, 232, 242) solid;
     border-radius: 4px;
     font-size: 1.8rem;
