@@ -87,6 +87,10 @@ h1, h2, h3, h4, h5, h6 {
   color: #2A3F5F;
 }
 
+p {
+  color: rgb(239, 239, 239);
+}
+
 .example-container h1,
 .example-container h2,
 .example-container h3,
@@ -153,6 +157,7 @@ h1, h2, h3, h4, h5, h6 {
   border: thin #119DFF solid;
   cursor: pointer;
 }
+
 
 .content p > code,
 .content li > code{
