@@ -155,7 +155,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-.content p > code,
+.content p > code {
+  color: rgb(239, 239, 239);
+}
 .content li > code{
     background-color: rgb(243, 246, 251);
     border: 0.5px rgb(224, 232, 242) solid;
