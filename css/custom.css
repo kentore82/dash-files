@@ -154,10 +154,6 @@ h1, h2, h3, h4, h5, h6 {
   cursor: pointer;
 }
 
-.content p {
-  color: rgb(239, 239, 239);
-}
-
 .content p > code,
 .content li > code{
     background-color: rgb(243, 246, 251);
