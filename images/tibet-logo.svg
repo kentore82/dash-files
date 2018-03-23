@@ -228,39 +228,6 @@
      height="136"
      fill="none"
      id="rect893" />
-  <rect
-     x="68"
-     y="40"
-     width="32"
-     height="24"
-     rx="12"
-     ry="12"
-     fill="#fff"
-     id="rect905" />
-  <rect
-     x="36"
-     y="40"
-     width="24"
-     height="24"
-     rx="2"
-     ry="2"
-     fill="#fff"
-     id="rect909" />
-  <circle
-     cx="88"
-     cy="84"
-     r="12"
-     fill="#fff"
-     id="circle911" />
-  <rect
-     x="36"
-     y="80"
-     width="32"
-     height="8"
-     rx="3.77"
-     ry="3.77"
-     fill="#fff"
-     id="rect915" />
   <text
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:13.33333302px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
