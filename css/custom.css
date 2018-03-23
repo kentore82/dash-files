@@ -46,7 +46,7 @@ body {
 }
 
 .header .links .link:hover {
-  color: #333333;
+  color: #2A3F5F;
   text-decoration: none;
   font-weight: bold;
 }
@@ -148,7 +148,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .content a:hover {
-  color: #333333;
+  color: #2A3F5F;
   text-decoration: underline;}
 
 .content a > img:hover {
