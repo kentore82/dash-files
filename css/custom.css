@@ -166,6 +166,7 @@ h1, h2, h3, h4, h5, h6 {
 .content li > code{
     background-color: rgb(243, 246, 251);
     border: 0.5px rgb(224, 232, 242) solid;
+    color: #2A3F5F;
     border-radius: 4px;
     font-size: 1.8rem;
     padding-left: 3px;
