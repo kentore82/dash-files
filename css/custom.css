@@ -185,7 +185,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .content-container {
-  background-color: lightslategray;
+  background-color: rgb(243, 246, 251);
+  color: #2A3F5F;
   border-radius: 5px;
   font-size: 1.7rem;
   box-shadow: rgb(240, 240, 240) 5px 5px 5px 0px;
