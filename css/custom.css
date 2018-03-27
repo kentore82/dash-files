@@ -160,9 +160,16 @@ h1, h2, h3, h4, h5, h6 {
   color: rgb(239, 239, 239);
 }
 
-/*.content p > code {
-   color: #2A3F5F;
-}*/
+.content p > code {
+    background-color: rgb(243, 246, 251);
+    border: 0.5px rgb(224, 232, 242) solid;
+    color: #2A3F5F;
+    border-radius: 4px;
+    font-size: 1.8rem;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
 .content li p > code{
     background-color: rgb(243, 246, 251);
     border: 0.5px rgb(224, 232, 242) solid;
