@@ -160,10 +160,10 @@ h1, h2, h3, h4, h5, h6 {
   color: rgb(239, 239, 239);
 }
 
-.content p > code {
-  color: #2A3F5F;
-}
-.content li > code{
+/*.content p > code {
+   color: #2A3F5F;
+}*/
+.content li p > code{
     background-color: rgb(243, 246, 251);
     border: 0.5px rgb(224, 232, 242) solid;
     color: #2A3F5F;
