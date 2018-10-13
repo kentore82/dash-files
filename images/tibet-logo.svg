@@ -7,13 +7,13 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="392"
+   width="458"
    height="136"
-   viewBox="0 0 392 136"
+   viewBox="0 0 458 136"
    version="1.1"
    id="svg921"
    sodipodi:docname="tibet-logo.svg"
-   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)">
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
   <metadata
      id="metadata927">
     <rdf:RDF>
@@ -32,7 +32,7 @@
        inkscape:menu-tooltip="Displace the outside of shapes and pictures without altering their content"
        inkscape:menu="Distort"
        inkscape:label="Torn Edges"
-       style="color-interpolation-filters:sRGB;"
+       style="color-interpolation-filters:sRGB"
        id="filter969"
        height="1.4"
        y="-0.2"
@@ -73,7 +73,7 @@
       <feSpecularLighting
          result="result5"
          specularExponent="5"
-         specularConstant="1.1"
+         specularConstant="1.10000002"
          surfaceScale="18"
          id="feSpecularLighting963">
         <feDistantLight
@@ -89,7 +89,8 @@
          result="result7"
          in2="result5"
          k1="0.5"
-         id="feComposite965" />
+         id="feComposite965"
+         k4="0" />
       <feComposite
          in="result7"
          operator="atop"
@@ -106,15 +107,15 @@
          baseFrequency="0.05"
          numOctaves="5"
          type="fractalNoise"
-         result="result91"
-         in="fbSourceGraphic" />
+         result="result91" />
       <feDisplacementMap
          in2="result91"
          id="feDisplacementMap975"
          scale="25"
          result="result5"
          xChannelSelector="R"
-         in="fbSourceGraphic" />
+         in="fbSourceGraphic"
+         yChannelSelector="A" />
       <feComposite
          in2="result5"
          id="feComposite977"
@@ -125,7 +126,7 @@
        inkscape:label="Cracked Glass"
        inkscape:menu="Textures"
        inkscape:menu-tooltip="Under a cracked glass"
-       style="color-interpolation-filters:sRGB;"
+       style="color-interpolation-filters:sRGB"
        id="filter1045">
       <feTurbulence
          baseFrequency="0.1"
@@ -144,7 +145,8 @@
          scale="20"
          xChannelSelector="G"
          in2="result7"
-         id="feDisplacementMap1025" />
+         id="feDisplacementMap1025"
+         yChannelSelector="A" />
       <feComposite
          result="result2"
          operator="in"
@@ -174,7 +176,9 @@
          in="result4"
          operator="arithmetic"
          result="result91"
-         id="feComposite1035" />
+         id="feComposite1035"
+         k2="0"
+         k4="0" />
       <feBlend
          result="fbSourceGraphic"
          mode="multiply"
@@ -185,7 +189,11 @@
          in="fbSourceGraphic"
          result="result2"
          operator="arithmetic"
-         id="feComposite1039" />
+         id="feComposite1039"
+         k1="0"
+         k2="0"
+         k3="0"
+         k4="0" />
       <feComposite
          in="result2"
          result="result4"
@@ -193,7 +201,9 @@
          k2="2"
          k3="2"
          in2="fbSourceGraphic"
-         id="feComposite1041" />
+         id="feComposite1041"
+         k1="0"
+         k4="0" />
       <feBlend
          mode="screen"
          in="result4"
@@ -226,8 +236,10 @@
   <rect
      width="392"
      height="136"
-     fill="none"
-     id="rect893" />
+     id="rect893"
+     x="0"
+     y="0"
+     style="fill:none" />
   <text
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:13.33333302px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -238,21 +250,20 @@
        id="tspan929"
        x="364.80811"
        y="79.916367" /></text>
-  <text
-     xml:space="preserve"
-     style="font-style:normal;font-weight:normal;font-size:53.33333206px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#506784;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter969)"
-     x="100.43137"
-     y="107.41873"
-     id="text935"
-     transform="matrix(1.011316,0,0,0.87148676,26.064592,7.9271257)"><tspan
-       sodipodi:role="line"
-       id="tspan933"
-       x="100.43137"
-       y="107.41873"
-       style="font-size:96px">TiBEt</tspan></text>
   <path
-     style="fill:none;fill-rule:evenodd;stroke:#d8dff9;stroke-width:6.29291339;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;filter:url(#filter1045)"
+     style="fill:none;fill-rule:evenodd;stroke:#d8dff9;stroke-width:6.29291344;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter1045)"
      d="M 117.1038,99.082532 23.023797,99.479494 57.956456,59.783291 83.362025,98.68557 56.368608,98.288608 126.23392,11.353924 146.87595,34.377722"
      id="path979"
      inkscape:connector-curvature="0" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:74.66666412px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;fill:#119dff;fill-opacity:0.94117647;stroke:none;"
+     x="115.11898"
+     y="95.50988"
+     id="text3994"><tspan
+       sodipodi:role="line"
+       id="tspan3992"
+       x="115.11898"
+       y="95.50988"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:85.33333588px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#119dff;fill-opacity:0.94117647;">tibet.io</tspan></text>
 </svg>
