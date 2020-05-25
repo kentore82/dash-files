@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   sodipodi:docname="dummy-logo.svg"
+   inkscape:version="1.0 (4035a4f, 2020-05-01)"
+   width="203.38852mm"
+   height="45.541409mm"
+   viewBox="0 0 203.38852 45.541409"
+   version="1.1"
+   id="svg8">
+  <defs
+     id="defs2">
+    <filter
+       id="filter1569"
+       style="color-interpolation-filters:sRGB"
+       inkscape:menu-tooltip="Metallized effect with a soft lighting, slightly translucent at the edges"
+       inkscape:menu="Materials"
+       inkscape:label="Metallized Paint">
+      <feGaussianBlur
+         id="feGaussianBlur1543"
+         result="result1"
+         stdDeviation="1" />
+      <feComposite
+         id="feComposite1545"
+         operator="in"
+         result="result4"
+         in2="result1"
+         in="result1" />
+      <feBlend
+         id="feBlend1547"
+         in2="result4"
+         result="result5"
+         mode="screen"
+         in="result1" />
+      <feGaussianBlur
+         id="feGaussianBlur1549"
+         in="result5"
+         result="result6"
+         stdDeviation="8" />
+      <feComposite
+         id="feComposite1551"
+         result="result8"
+         in2="result5"
+         in="result6"
+         operator="atop" />
+      <feComposite
+         id="feComposite1553"
+         in2="result8"
+         in="result6"
+         result="fbSourceGraphic"
+         operator="in" />
+      <feGaussianBlur
+         id="feGaussianBlur1555"
+         stdDeviation="2.5"
+         in="fbSourceGraphic"
+         result="result0" />
+      <feSpecularLighting
+         id="feSpecularLighting1559"
+         in="result0"
+         result="result1"
+         lighting-color="#ffffff"
+         surfaceScale="1"
+         specularConstant="1.5"
+         specularExponent="45">
+        <fePointLight
+           id="fePointLight1557"
+           x="-6000"
+           y="-9000"
+           z="21000" />
+      </feSpecularLighting>
+      <feComposite
+         id="feComposite1561"
+         in2="fbSourceGraphic"
+         in="result1"
+         result="result2"
+         operator="in" />
+      <feComposite
+         k4="0"
+         k1="0"
+         id="feComposite1563"
+         in2="result2"
+         in="fbSourceGraphic"
+         result="result4"
+         operator="arithmetic"
+         k2="1"
+         k3="1" />
+      <feComposite
+         id="feComposite1565"
+         result="result91"
+         in2="result4"
+         operator="in" />
+      <feBlend
+         id="feBlend1567"
+         in2="result91"
+         mode="multiply" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     fit-margin-bottom="0"
+     fit-margin-right="0"
+     fit-margin-left="0"
+     fit-margin-top="0"
+     inkscape:window-maximized="1"
+     inkscape:window-y="23"
+     inkscape:window-x="0"
+     inkscape:window-height="1395"
+     inkscape:window-width="2560"
+     showgrid="false"
+     inkscape:document-rotation="0"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="mm"
+     inkscape:cy="91.019365"
+     inkscape:cx="508.70015"
+     inkscape:zoom="1.979899"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(-17.191655,-117.86715)"
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1">
+    <text
+       id="text12"
+       y="158.8445"
+       x="31.56101"
+       style="font-style:normal;font-weight:normal;font-size:50.8px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;filter:url(#filter1569)"
+       xml:space="preserve"><tspan
+         style="font-size:50.8px;stroke-width:0.264583"
+         y="158.8445"
+         x="31.56101"
+         id="tspan10"
+         sodipodi:role="line">atea.io</tspan></text>
+  </g>
+</svg>
